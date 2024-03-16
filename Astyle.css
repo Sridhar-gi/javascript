@@ -1,0 +1,53 @@
+input[type="date"]{
+    padding: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(0, 200, 255);
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#submit{
+    background-color: rgb(1, 1, 11);
+    padding: 13px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius:5px; 
+    margin-left: 10px;
+    color: white;
+}
+
+#container{
+    background-color:white;
+    width: max-content;
+    padding: 40px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+body{
+    background-color: black;
+
+}
+#span{
+    margin-top: 90px;
+}
+#content span{
+    background-color: white;
+   
+    margin-left: 30px;
+   padding: 35px;
+   color: blue;
+   font-weight: bolder;
+   font-size: xx-large;
+
+}
+#full{
+    margin: 100px;
+}
+#content{
+    display: none;
+}
