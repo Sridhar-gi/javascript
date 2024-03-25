@@ -1,0 +1,24 @@
+div{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-top: 10px;
+}
+label{
+    margin-bottom: 10px;
+}
+
+tbody td{
+    padding: 130px;
+
+}
+.overall{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+h4{
+    background-color: rgb(121, 238, 195);
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+
+    <link rel="stylesheet" href="./eStyle.css">
+</head>
+<body>
+    <h4>E-Commerce Bill Details</h4>
+    <div class="overall">
+
+        <form>
+            <div>
+                <label for="pname">Product Name</label>
+                <input type="text" id="name">
+            </div>
+
+            <div>
+                <label for="pimage">Product Image</label>
+             
+                <input type="file" id="img">
+            </div>
+
+            <div>
+                <label for="qty">Quantity</label>
+                <input type="text" id="qty">
+            </div>
+
+            <div>
+                <label for="rate">Rate</label>
+                <input type="text" id="rates">
+            </div>
+
+            <div>
+                <label for="amount">Amount</label>
+                <input type="text" id="amount">
+            </div>
+
+            <div>
+                <input type="button" value="Print" onclick="print()">
+            </div>
+
+        </form>
+    </div>
+
+    <div>
+        <table>
+            <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Product Image</th>
+                <th>Quantity</th>
+                <th>Rate</th>
+                <th>Amount</th>
+            </tr>
+           
+                <tbody id="tbody">
+                    
+                </tbody>
+            </thead>
+        </table>
+    </div>
+    <script src="./eapp.js"></script>
+</body>
+</html>
